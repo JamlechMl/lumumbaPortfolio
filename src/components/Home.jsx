@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import Intro from "../assets/intro.png";
 
 const Home = () => {
   return <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -13,11 +14,12 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm an Accountant.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
-          {/* I’m a full-stack developer specializing in building (and
-          occasionally designing) exceptional digital experiences. Currently,
-          I’m focused on building responsive full-stack web applications. */}
-        </p>
+        {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"> */}
+          <a href="https://www.youtube.com/watch?v=74GiB2xTlDo&ab_channel=ScLumumba">
+            <img className="w-[300px] mx-[10px]" src={Intro} alt="Introduction video" />
+            <p className="my-4 text-[#fff] ">Self Introduction.</p>
+          </a>
+        {/* </div> */}
         <div>
           <a href="https://docs.google.com/document/d/10J-cZjQs9Teldw3BJZblJO1801dHc5EN/edit?usp=sharing&ouid=116742577254735775012&rtpof=true&sd=true">
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

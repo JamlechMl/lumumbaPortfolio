@@ -18,10 +18,9 @@ function Navbar() {
 
   return <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo}  alt = "lumumba" style={{ width: "200px" }} />
+        <img src={Logo} alt="lumumba" style={{ width: "120px" }} />
       </div>
 
-      
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -34,6 +33,11 @@ function Navbar() {
           </Link>
         </li>
         <li>
+        <li>
+            <Link to="dance" smooth={true} duration={500}>
+              Dance
+            </Link>
+          </li>
           <Link to="videos" smooth={true} duration={500}>
             Videos
           </Link>
@@ -45,10 +49,10 @@ function Navbar() {
         </li>
         <li>
           <Link to="pictures" smooth={true} duration={500}>
-            Pictures
+            Hobbies
           </Link>
         </li>
-        
+
         <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
@@ -74,8 +78,13 @@ function Navbar() {
           </Link>
         </li>
         <li className="py-6 text-4xl">
+          {" "}<Link onClick={handleClick} to="dance" smooth={true} duration={500}>
+            Hobbies
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
           {" "}<Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Videos
+            Dance
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -85,7 +94,7 @@ function Navbar() {
         </li>
         <li className="py-6 text-4xl">
           {" "}<Link onClick={handleClick} to="pictures" smooth={true} duration={500}>
-            Pictures
+            Hobbies
           </Link>
         </li>
         <li className="py-6 text-4xl">

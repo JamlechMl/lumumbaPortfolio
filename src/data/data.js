@@ -1,14 +1,15 @@
 import Class from '../assets/projects/class.jpg';
 import Forest from '../assets/projects/forest.jpg';
 import Hike from '../assets/projects/hike.jpg';
-import myself from '../assets/projects/myself.jpg';
+
 import Stone from '../assets/projects/stones.jpg';
 
 export const data = [
+  
   {
     id: 1,
 
-    image: myself
+    image: Hike
   },
   {
     id: 2,
@@ -18,15 +19,10 @@ export const data = [
   {
     id: 3,
 
-    image: Hike
-  },
-  {
-    id: 4,
-
     image: Stone
   },
   {
-    id: 5,
+    id: 4,
 
     image: Class
   },

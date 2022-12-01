@@ -1,11 +1,9 @@
 import React from 'react';
 
 import Climate from '../assets/climate.png';
-import Dance1 from '../assets/dance1.png';
-import Dance2 from '../assets/dance2.png';
-import Dance3 from '../assets/dance3.png';
+ 
 import Innovation from '../assets/inovation.png';
-import Intro from '../assets/intro.png';
+
 import Music from '../assets/music .png';
 
 function Skills() {
@@ -20,32 +18,11 @@ function Skills() {
         </div>
         
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <a href="https://www.youtube.com/watch?v=74GiB2xTlDo&ab_channel=ScLumumba">
-              <img className="w-auto mx-auto" src={Intro} alt="Introduction video" />
-              <p className="my-4">Self Introduction.</p>
-            </a>
-          </div>
+         
 
         
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <a href="https://www.youtube.com/watch?v=gg1xJGdna6A&feature=youtu.be">
-              <img className="w-auto mx-auto" src={Dance1} alt="luo dance video" />
-              <p className="my-4">Luo Dance.</p>
-            </a>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <a href="https://youtu.be/NYE83TivNS8">
-              <img className="w-auto mx-auto" src={Dance2} alt="luhya dance video" />
-              <p className="my-4">Luhya dance.</p>
-            </a>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <a href="https://youtu.be/h758RX-JkqM">
-              <img className="w-auto mx-auto" src={Dance3} alt="mwomboko dance video" />
-              <p className="my-4">Mwomboko dance.</p>
-            </a>
-          </div>
+          
+          
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <a href="https://www.youtube.com/watch?v=AvHKRkdOesU&ab_channel=ScLumumba">
               <img className="w-auto mx-auto" src={Innovation} alt="invention and innovation video" />
